@@ -35,6 +35,10 @@ const animationTimeline = () => {
       opacity: 0,
       y: 10,
     })
+    .from(".twoPointFive", 0.5, {
+      opacity: 0,
+      y: 10,
+    })
     .from(".two", 0.4, {
       opacity: 0,
       y: 10,
@@ -47,6 +51,15 @@ const animationTimeline = () => {
         y: 10,
       },
       "+=2.5"
+    )
+     .to(
+      ".twoPointFive",
+      0.7,
+      {
+        opacity: 0,
+        y: 10,
+      },
+      "+=1"
     )
     .to(
       ".two",
