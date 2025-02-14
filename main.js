@@ -48,7 +48,7 @@ const animationTimeline = () => {
       0.7,
       {
         opacity: 0,
-        y: 10,
+        y: 5,
       },
       "+=2.5"
     )
@@ -57,7 +57,7 @@ const animationTimeline = () => {
       0.7,
       {
         opacity: 0,
-        y: 10,
+        y: 5,
       },
       "+=1"
     )
@@ -66,7 +66,7 @@ const animationTimeline = () => {
       0.7,
       {
         opacity: 0,
-        y: 10,
+        y: 5,
       },
       "-=1"
     )
