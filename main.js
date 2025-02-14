@@ -247,6 +247,7 @@ const animationTimeline = () => {
         scale: 80,
         repeat: 3,
         repeatDelay: 1.4,
+        color: "#fc4444",
       },
       0.3
     )
