@@ -35,11 +35,11 @@ const animationTimeline = () => {
       opacity: 0,
       y: 10,
     })
-    .from(".two", 0.5, {
+    .from(".two", 0.4, {
       opacity: 0,
       y: 10,
     })
-    .from(".twoPointFive", 0.4, {
+    .from(".twoPointFive", 0.2, {
       opacity: 0,
       y: 10,
     })
