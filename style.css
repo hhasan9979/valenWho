@@ -297,4 +297,7 @@ body {
     font-size: 1.5rem;
     font-weight: lighter;
   }
+  #wishText {
+    color: #fc4444;
+  }
 }
